@@ -7,9 +7,9 @@ cli
     .version('1.0.0')
     .command('copy-schema <source> <target>')
     .description('-  Apply the schema of the source JSON to the target JSON. Please use relative filepaths!')
-    .action(copySchema)
+    .action(copySchema);
 
-cli.parse(process.argv)
+cli.parse(process.argv);
 
 function copySchema(source, target) {
     console.log(source, target);
