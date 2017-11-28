@@ -3,7 +3,8 @@
 const fs = require('fs');
 const cli = require('commander');
 
-cli.version('1.0.0')
+cli
+    .version('1.0.0')
     .command('copy-schema <source> <target>')
     .description('-  Apply the schema of the source JSON to the target JSON. Please use relative filepaths!')
     .action(copySchema)
