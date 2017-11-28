@@ -1,2 +1,4 @@
 # jason-cli
-Who..?
+
+The official CLI utility for jason-core.
+
