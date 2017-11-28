@@ -1,5 +1,5 @@
 {
-  "name": "jason-handler",
+  "name": "jason-cli",
   "version": "1.0.0",
   "description": "A CLI tool to copy schema, validate and detect diffs between multiple JSON files.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/progvar/jason-handler.git"
+    "url": "git+https://github.com/progvar/jason-cli.git"
   },
   "keywords": [
     "json",
@@ -22,7 +22,13 @@
   "author": "Gyula Varadi",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/progvar/jason-handler/issues"
+    "url": "https://github.com/progvar/jason-cli/issues"
   },
-  "homepage": "https://github.com/progvar/jason-handler#readme"
+  "homepage": "https://github.com/progvar/jason-cli#readme",
+  "bin": {
+    "jason": "./index.js"
+  },
+  "dependencies": {
+    "commander": "2.12.2"
+  }
 }
